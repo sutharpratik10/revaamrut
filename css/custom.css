@@ -1,0 +1,215 @@
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+
+/*Menu CSS*/
+header div#logo a img {
+    width: 50%;
+}
+
+/*Slider*/
+.tagline {
+    font-size: 3.3rem;
+}
+.rev-slider {
+    padding: 0px 0 90px 0;
+}
+.blurslider-gradient {
+    background: -webkit-linear-gradient(left,#a310ff 18%,#1320a6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*why alkaline water*/
+.di-large {
+-webkit-box-shadow: 2px 20px 30px 0px rgba(20,20,20, 0.2); */
+-moz-box-shadow: 2px 20px 30px 0px rgba(20,20,20, 0.2);
+box-shadow: 2px 20px 30px 0px rgba(20,20,20, 0.2);
+}
+.di-small-3 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    right: -50%;
+    bottom: -10%;
+    z-index: 1;
+}
+.modal-backdrop.show {
+    opacity: 0.3;
+}
+/*Start old_card*/
+.healthcard-outerbox{
+    padding: 10px;
+}
+.health-card {
+    width: 18rem;
+    min-height: 110px;
+    display: block;
+    margin:40px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    transition: all .25s;
+    text-align: center;
+    background-color: #0074ab;
+}
+.card-body h3{
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+.health-card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    z-index: 20;
+    transform: scale(1.1);
+    background-color: #0090d4;
+}
+/*End old_card*/
+
+/*facts_start*/
+.factcard-outerbox{
+    padding: 10px;
+}
+.fact-card {
+    width: auto;
+    min-height: 300px;
+    display: block;
+    margin:20px 20px 0px 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    transition: all .25s;
+    text-align: center;
+    background-color: #0074ab;
+}
+.factcardcard-body h4{
+    color: #ffffff;
+}
+.factcardcard-body p{
+    color: #ffffff;
+}
+.fact-card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    z-index: 20;
+    transform: scale(1.1);
+    background-color: #0090d4;
+}
+/*Dealer contact (Massonary layout)*/
+.dealer .card-body h3 {
+    margin-bottom: 0px;
+    color: #35404e;
+}
+.dealer .card-body h3 span {
+font-size: 1.5rem;
+}
+#filters a {
+    font-weight: 900;
+    font-size: 1.05rem;
+}
+#map {
+    height: 300px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+  .dealer .item:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    z-index: 20;
+    transform: scale(1.1);
+    transition: all .25s;
+}
+/*Blog css*/
+.page-header{
+    background-image: url("../images/blog/blog_header.jpg");
+    height: 40vh;
+    margin: 0;
+    place-items: center center;
+    display: grid;
+} 
+.header-content{
+    margin-bottom: 30px;
+}
+.header-content h2{
+    color: #002145;
+}
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';
+    content: "\f068";
+    float: right;
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067";
+}
+
+/*Testimonials*/
+.write-review{
+    margin-top: 30px;
+}
+blockquote.testimonial-big .name {
+    font-weight: 1000;
+    font-size: 1.5rem;
+}
+blockquote.testimonial-big .quoteperson{
+    margin-bottom: 30px;
+}
+blockquote.testimonial-big .designation {
+    margin-top: 5px;
+    font-weight: 1000;
+    font-size: 1.1rem;
+}
+blockquote.testimonial-big {
+     font-size: 1.05rem;
+}
+
+/*=======================Responsive========================*/
+@media only screen and (max-width: 2560px) {
+    /*.rev_slider .bottle{*/
+    /*    height: 900px;*/
+    /*    left: 300px;*/
+    /*}*/
+
+}
+@media only screen and (max-width: 992px) {
+
+}
+@media only screen and (max-width: 540px){
+    section {
+        padding: 50px 0 50px 0;
+        position: relative;
+    }
+    header div#logo a img {
+        width: 100%;
+    }
+    .vertical-center {
+        min-height: 100%;
+        min-height: auto;
+        display: flex;
+        align-items: center;
+    }
+    .page-header{
+        background-image: url("../images/blog/blog_header.jpg");
+        height: 10vh;
+    }
+    .tagline {
+        font-size: 1rem;
+    }
+    .health-card:hover {
+        box-shadow: 0 0px 0px 0 rgba(0,0,0,0),0 0px 0px 0 rgba(0,0,0,0);
+        z-index: 20;
+        transform: scale(1);
+    }
+    .pf_full_width.grid .item {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .health-card {
+        margin: 15px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .health-card {
+        width: 15rem;
+    }
+}
